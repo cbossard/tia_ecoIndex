@@ -277,6 +277,16 @@ ecoindex-cli analyze --url https://www.breizhcamp.org --html-report
 ```
 
 ---
+---
+# Ligne de commande
+
+## Analyse de plusieurs pages
+
+```bash
+ecoindex-cli analyze --url https://www.breizhcamp.org --url https://www.breizhcamp.org/conference --html-report 
+```
+
+---
 layout: center
 ---
 
