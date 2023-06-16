@@ -253,7 +253,7 @@ layout: default
 ## Récupération de l'image docker
 
 ```bash
-alias ecoindex-cli="docker run -it --rm -v /tmp/ecoindex-cli:/tmp/ecoindex-cli vvatelot/ecoindex-cli:latest ecoindex-cli"
+alias ecoindex-cli="docker run -it --rm -v /home/cecilia/ecoindex-cli:/tmp/ecoindex-cli vvatelot/ecoindex-cli:latest ecoindex-cli"
 ```
 
 ---
