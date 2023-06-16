@@ -80,7 +80,7 @@ layout: center
 layout: section
 ---
 
-# Ce serait chouette d'avoir un outil permettant de calculer un score environnemental 
+# Ce serait chouette d'avoir un outil permettant de mesurer l'impact environnemental de nos applis
 
 
 <!--
@@ -151,6 +151,15 @@ Calcul des émissions de gaz à effet de serre et consommation d'eau générés 
 
 ![Local Image](/eco-index4.png)
 
+
+---
+---
+# L'empreinte environnementale
+
+<img src="/quantiteCo2.png" class="mx-40 h-90" />
+
+via https://impactco2.fr/
+
 ---
 layout: section
 ---
@@ -185,56 +194,55 @@ layout: section
 ---
 # Utilisation au quotidien
 
----
-layout: default
----
-# Utilisation au quotidien
-
-- Plugin dans le navigateur (Firefox ou Chrome)
+Comment l'utiliser au cours des développements ?
 
 ---
 layout: default
 ---
-# Utilisation au quotidien
+# Plugin dans le navigateur (Firefox ou Chrome)
 
-- Plugin dans le navigateur (Firefox ou Chrome)
+
+<p class="mx-80">
+  <img src="/greenITAnalysis.png" class="h-40" />
+  GreenIT-Analysis
+</p>
+---
+layout: default
+---
+# Plugin dans le navigateur (Firefox ou Chrome)
 
 ## Démo !
 
 ---
 ---
-# Plugin
+# GreenIT-Analysis
 
 ![Local Image](/plugin1.png)
 
 ---
 ---
-# Plugin
+# GreenIT-Analysis
 
 ![Local Image](/plugin2.png)
 
 ---
 ---
-# Plugin
+# GreenIT-Analysis
 
 ![Local Image](/plugin3.png)
 
 ---
 layout: default
 ---
-# Utilisation au quotidien
+# Ligne de commande
 
-- Plugin dans le navigateur (Firefox ou Chrome)
-- En ligne de commande
+https://github.com/cnumr/ecoindex_cli
 
 
 ---
 layout: default
 ---
-# Utilisation au quotidien
-
-- Plugin dans le navigateur (Firefox ou Chrome)
-- En ligne de commande
+# Ligne de commande
 
 ## Démo !
 
@@ -242,7 +250,7 @@ layout: default
 ---
 # Ligne de commande
 
-Récupération de l'image docker
+## Récupération de l'image docker
 
 ```bash
 alias ecoindex-cli="docker run -it --rm -v /tmp/ecoindex-cli:/tmp/ecoindex-cli vvatelot/ecoindex-cli:latest ecoindex-cli"
@@ -252,7 +260,7 @@ alias ecoindex-cli="docker run -it --rm -v /tmp/ecoindex-cli:/tmp/ecoindex-cli v
 ---
 # Ligne de commande
 
-Analyse
+## Analyse
 
 ```bash
 ecoindex-cli analyze --url https://www.breizhcamp.org
@@ -262,7 +270,7 @@ ecoindex-cli analyze --url https://www.breizhcamp.org
 ---
 # Ligne de commande
 
-Analyse avec rapport HTML
+## Analyse avec rapport HTML
 
 ```bash
 ecoindex-cli analyze --url https://www.breizhcamp.org --html-report
